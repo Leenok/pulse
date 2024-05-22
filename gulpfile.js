@@ -13,7 +13,7 @@ import autoprefixer from 'gulp-autoprefixer'
 gulp.task('server', function() {
     browserSync.init({
         server: {
-            baseDir: "src"
+            baseDir: "./"
         }
     });
 
