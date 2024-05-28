@@ -1,0 +1,46 @@
+.slider-block{
+    padding-top: 81px;
+}
+
+.prev, .next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -66px;
+    border: none;
+    background: #fff;
+    img{
+        height: 50px;
+        width: 31px;
+    }
+
+    @media (max-width: 1080px) {
+        display: none;
+    }
+}
+.next{
+    right: -66px;
+    left: auto
+}
+.tns-item{
+    img{
+        display: block;
+        margin: 0 auto;
+        max-width: 95%;
+    }
+}
+
+.tns-nav{
+    width: 15%;
+    margin: 0 auto;
+    button{
+        background: #fff;
+        width: 15px;
+        height: 10px;
+        border: 1px solid $main-color ;
+        margin: 1px;
+    }
+    .tns-nav-active{
+        background-color: $main-color;
+    }
+}
