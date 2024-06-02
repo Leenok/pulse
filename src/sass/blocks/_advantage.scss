@@ -34,6 +34,15 @@
             text-decoration: underline;
             text-transform: uppercase;
         }
+        .icon-animated{
+            animation-name: heartbeat;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            &:hover{
+                animation-play-state: paused;
+            }
+        }
     }
 }
 @media (max-width: 500px) {
